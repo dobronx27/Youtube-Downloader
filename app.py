@@ -681,4 +681,6 @@ if __name__ == '__main__':
     print("pip install flask yt-dlp")
     print("\nPress Ctrl+C to stop the server")
     
+    # For local network access, use your local IP
+    # Find your IP with: ipconfig (Windows) or ifconfig (Mac/Linux)
     app.run(debug=True, host='0.0.0.0', port=5000)
